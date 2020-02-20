@@ -1,0 +1,192 @@
+
+body {
+  background-color: #fafafa;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+  color: #07689f;
+  font-family:'Sacramento', cursive;
+  line-height: 2;
+  margin-bottom: 0;
+  font-size: 6.625rem;
+  text-align: center;
+  border-radius: 0
+}
+
+h2 {
+  color: #07689f;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+h3 {
+  color: #ff7e67;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+header {
+  background-color: #a2d5f2;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 2%;
+}
+
+footer {
+  background-color: #07689f;
+  padding: 1% 0 0 0;
+  color: white;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+hr {
+  color: #07689f;
+  border-style: none;
+  border-top: dotted 6px;
+  border-width: 5px;
+  height: 5px;
+  width: 3%;
+  margin-top: 50px;
+}
+
+/* add zoom css and social media icons from testsite. */
+
+.navbar {
+  background-color: #a2d5f2;
+}
+
+.intro-container {
+  padding: 4% 0;
+  width: 50%;
+  text-align: justify;
+  font-size: 1.3rem;
+  margin: auto;
+}
+
+.profile-img {
+  width: 25%;
+  border-radius: 10%;
+  margin-left:  37.5%;
+  margin-bottom: 3%;
+}
+
+.middle-container {
+  padding: 4% 0;
+  font-size: 1.3rem;
+  width: 50%;
+  text-align: justify;
+  margin:auto;
+}
+
+.laptop-pic {
+  width: 25%;
+  border-radius: 30px;
+  float: left;
+  margin-right:  30px;
+}
+
+.end-container {
+  padding: 4% 0;
+  font-size: 1.3rem;
+  width: 50%;
+  text-align: justify;
+  margin:auto;
+}
+
+.end-img {
+  width: 22%;
+  border-radius: 30px;
+  float: right;
+  margin-left:  30px;
+}
+
+.contact-me {
+  text-align: center;
+  margin-bottom: 2%;
+  padding: 4% 0;
+  font-size: 1.3rem;
+  width: 50%;
+  margin:auto;
+}
+
+.butn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #a2d5f2, #07689f);
+  background-image: -moz-linear-gradient(top, #a2d5f2, #07689f);
+  background-image: -ms-linear-gradient(top, #a2d5f2, #07689f);
+  background-image: -o-linear-gradient(top, #a2d5f2, #07689f);
+  background-image: linear-gradient(to bottom, #a2d5f2, #07689f);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #07689f, #a2d5f2);
+  background-image: -moz-linear-gradient(top, #07689f, #a2d5f2);
+  background-image: -ms-linear-gradient(top, #07689f, #a2d5f2);
+  background-image: -o-linear-gradient(top, #07689f, #a2d5f2);
+  background-image: linear-gradient(to bottom, #07689f, #a2d5f2);
+  text-decoration: none;
+}
+
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 1%;
+}
+
+/* portfolio css section */
+
+.portfolio-title {
+  padding: 3% 0;
+}
+
+.portfolio-text {
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+  font-size: 1.3rem;
+  padding: 2%;
+}
+
+.portfolio-img {
+  width: 37.5%;
+  margin-left: 25%;
+}
+
+.portfolio-img1 {
+  width: 10%;
+  margin-left: 2%;
+}
+
+.coming-soon {
+  text-align: center;
+  padding: 15%;
+  background-color: #07689f;
+  color: white;
+}
+
+.coming-soon2 {
+  text-align: center;
+  padding: 15%;
+  background-color: #ff7e67;
+  color: white;
+}
+
+.coming-soon3 {
+  text-align: center;
+  padding: 15%;
+}
