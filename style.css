@@ -18,7 +18,7 @@ body, html {
 
 /* First image (Full height background) */
 .bgimg-1 {
-  background-image: url('assets/bike.jpg');
+  background-image: url('assets/desktop.jpg');
   min-height: 100%;
 }
 
@@ -50,25 +50,6 @@ body, html {
   }
 }
 
-/* Experience timer */
-.countup {
-  text-align: center;
-}
-
-.countup .timeel {
-  display: inline-block;
-  padding-top: 4px;
-  background: #151515;
-  margin: 0;
-  color: white;
-  min-width: 2.6rem;
-}
-
-.countup span[class*="timeRef"] {
-  margin-left: 0;
-  background: black;
-  color:white;
-}
 
 #myNavbar a {
   font-size: 18px;
@@ -91,5 +72,11 @@ a {
   color: #c13584
 }
 
+.project-pics {
+  width: 50%;
+  margin-bottom: 18px;
+   margin-left : auto;
+   margin-right: auto;
+}
 
 

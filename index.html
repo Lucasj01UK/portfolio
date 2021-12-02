@@ -13,26 +13,30 @@
 
   <!-- Navbar (sit on top) -->
   <div class="w3-top">
+
     <div class="w3-bar" id="myNavbar">
       <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
         onclick="toggleFunction()" title="Toggle Navigation Menu">
         <i class="fa fa-bars"></i>
       </a>
-      <a href="#home" class="w3-bar-item w3-button w3-black w3-text-white">JON</a>
+      <a href="#home" class="w3-bar-item w3-button w3-black w3-text-white">
+        <i class="fas fa-user-tie"></i> JON</a>
 
-      <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-black w3-text-white"><i class="fa fa-user"></i>
-        ABOUT</a>
-      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-black w3-text-white"><i class="fa fa-th"></i>
-        PORTFOLIO</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-black w3-text-white"><i class="fa fa-envelope"></i>
-        CONTACT</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-black w3-text-white">
+        <i class="far fa-address-card"></i> ABOUT</a>
+        
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-black w3-text-white">
+        <i class="fa fa-th"></i> PORTFOLIO</a>
+        
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-black w3-text-white">
+        <i class="fa fa-envelope"></i> CONTACT</a>    
     </div>
 
     <!-- Navbar on small screens -->
     <div id="navBar" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"> ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()"> PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()"> CONTACT</a>
     </div>
   </div>
 
@@ -45,8 +49,8 @@
 
   <!-- Container (About Section) -->
   <div class="w3-content w3-container w3-padding-64" id="about">
-    <h3 class="w3-center">ABOUT ME</h3>
-    <p class="w3-center">Welcome to my website.</p>
+    <h3 class="w3-center"><strong>ABOUT ME</strong></h3>
+    <p class="w3-center"><strong>Welcome to my website.</strong></p>
     <p>I'm Jon. Thank you for taking the time to view my Portfolio. After working in retail for almost 20 years,
       I've had the opportunity to change my career and work in Web Design.</p>
 
@@ -62,7 +66,7 @@
       <!-- Hide this text on small devices -->
       <div class="w3-col m6  w3-padding-large ">
         <br>
-        <p class="w3-center"><em>I Love Web Development!</em></p>
+        <p class="w3-center"><strong>I Love Web Development!</strong></p>
 
         <p>I'm now a Web Developer working for HarvestEye Limited. 
           I specialize in designing and creating Web-Portals from the ground up for internal and external stakeholders. 
@@ -71,7 +75,7 @@
         
       </div>
     </div>
-    <p class=" w3-center w3-padding-16">Im really good at:</p>
+    <p class=" w3-center w3-padding-16"><strong>Im really good at</strong></p>
     <p class="w3-wide"><i class="fab fa-html5 w3-text-orange"></i>HTML</p>
     <div class="w3-light-grey">
       <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
@@ -98,48 +102,39 @@
   </div>
 
   <!-- Container (Portfolio Section) -->
-  <div class=" w3-container w3-padding-64" id="portfolio">
-    <h3 class="w3-center">MY WORK</h3>
-    <p class="w3-center"><em>Here are some samples of my latest projects.</em></p>
+  <div class=" w3-container w3-padding-64 w3-center" id="portfolio">
+    <h3 class=""><strong>MY WORK</strong></h3>
+    <p class=""><em>Here are some samples of my latest projects.</em></p>
     <br>
 
     <!-- Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-    <div class="w3-row-padding w3-center">
-      <div class="w3-col m3">
-        <img src="assets/vwccNew.PNG" style="width:300px;height:150px;" onclick="onClick(this)" class="w3-hover-opacity" alt="In pursuit of a career with my newfound skills and passion, I built my first website based on another 
-         passion of mine, cycling. VeloWise.cc is a directory site listing and categorising mainstream and obscure British 
-         cycling brands. This site is fledgling, which is growing and improving all the time.">
-        <br>
-        <span style="text-decoration: none;">VeloWise.cc</span>
 
-      </div>
+    <div class="w3-center">
 
-      <div class="w3-col m3">
-        <img src="assets/HarvestEyeLogin.PNG" style="width:300px;height:150px;" onclick="onClick(this)" class="w3-hover-opacity" alt="I'm in my first full-time permanent position as an in-house Junior Web Designer. My first project was to create a 
-        UI for a web portal based on some rough designs from my team leader. The web portal used HTML CSS and W3.css at it's 
-        core and was built remotely during the first lockdown caused by the COVID 19 pandemic in Great Britain. I work with a
-        Web Developer who built the backend in Angular">
-        <br>
-        <span class="" style="text-decoration: none;">HarvestEye Limited Web Portal</span>
-      </div>
+     
+        <div class="w3-card project-pics">
+          <img src="assets/vwccNew.PNG" style="width:100%">
+          <div class="w3-container">
+            <h3><strong>VeloWise.cc</strong></h3>
+            <p>In pursuit of a career with my newfound skills and passion, I built my first website based on another 
+              passion of mine, cycling! VeloWise.cc is a directory site categorising mainstream and obscure British 
+              cycling brands. This site is fledgling, which is growing and improving all the time.</p>
+          </div>
+        </div>
+     
+    
+      
+        <div class="w3-card project-pics">
+          <img src="assets/HarvestEyeLogin.PNG" style="width:100%">
+          <div class="w3-container">
+            <h3><strong>HarvestEye Ltd Web Portal</strong></h3>
+            <p>I'm in my first full-time permanent position as an in-house Junior Web Designer. My first project was to create a 
+              UI for a web portal based on some rough designs from my team leader. The web portal used HTML CSS and W3.css at it's 
+              core and was built remotely during the first lockdown caused by the COVID 19 pandemic in Great Britain.</p>
+          </div>
+        </div>
+  
 
-      <div class="w3-col m3">
-        <img src="assets/graph[1485].PNG" style="width:300px;height:150px;" onclick="onClick(this)" class="w3-hover-opacity" alt="My second project 
-        was to create histograms and GPS overlays for google maps using D3.js. D3 is a JavaScript library for manipulating documents 
-        based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3 was hard to learn as the library is vast and 
-        extremely powerful. Each graph has a tooltip, so when you hover over the bars and dots it displays accurate information.">
-        <br>
-        <span class="" style="text-decoration: none;">D3.JS Histograms</span>
-      </div>
-
-      <div class="w3-col m3">
-        <img src="assets/gps chart.PNG" style="width:300px;height:150px;" onclick="onClick(this)" class="w3-hover-opacity" alt="GPS overlays 
-        for google maps using D3.js. This heat map is showing test data from a HarvestEye unit installed on a harvester whilst picking up the crop 
-        from particular parts of a test field. It measures the crop in mm and when you hover over the map, it shows a tooltip to show more accurate information.">
-        <br>
-        <span class="" style="text-decoration: none;">D3.JS GPS overlay on Google Maps</span>
-        <p></p>
-      </div>
     </div>
 
   </div>
@@ -163,7 +158,7 @@
 
   <!-- Container (Contact Section) -->
   <div class="w3-content w3-container w3-padding-64" id="contact">
-    <h3 class="w3-center">WHERE I WORK</h3>
+    <h3 class="w3-center"><strong>WHERE I WORK</strong></h3>
     <p class="w3-center"><em>Considering me for a project? Swing by for a cup of <i class="fa fa-coffee fa-xs"></i>, or send
         me a message:</em></p>
 
