@@ -79,4 +79,12 @@ a {
    margin-right: auto;
 }
 
+@media only screen and (max-device-width: 600px) {
+  .mob-width {
+    width:fit-content;
+  }
+}
 
+.test {
+  margin-top: 0px !important;
+}
